@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirfa Hotel</title>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+<!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- link style cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- custom css file link  -->
+
+    <link rel="stylesheet" href="./style.css">
+<!-- *************************************************************************************************************** -->
+
+</head>
+<body>
+    
+<!-- header section start -->
+<header>
+
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>H</span>otel</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Booking</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        </nav>
+
+
+        <div class="icon">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here....">
+            <label for="search" class="fas fa-search"></label>
+        </form>
+</header>
+<!-- header section end -->
+
+<!-- login form container start  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember Me</label>
+        <p>Forget Password <a href="#">click me</a></p>
+        <p>dont have an account?<a href="#">Register Now</a></p>
+    </form>
+</div>
+
+<!-- login form container end -->
+
+
+<!-- home section start  -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Welcome To Mirfa Hotel Booking Site</h3>
+        <p>discover new places with us, luxry awaits</p>
+        <a href="#packages" class="btn">Discover More</a>
+    </div>
+
+    <div class="control">
+        <span class="vid-btn active" data-src="./hotels/3.mp4"></span>
+        <span class="vid-btn" data-src="./hotels/2.mp4"></span>
+        <span class="vid-btn" data-src="./hotels/1.mp4"></span>
+        <span class="vid-btn" data-src="./hotels/4.mp4"></span>
+        <span class="vid-btn" data-src="./hotels/5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="./hotels/3.mp4" id ="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<!-- home section end  -->
+
+
+
+data-
+<!-- Booking section start  -->
+ <section class="book" id="book">
+     <h1 class="heading">
+         <span>b</span>
+         <span>o</span>
+         <span>o</span>
+         <span>k</span>
+         <span>i</span>
+         <span>n</span>
+         <span>g</span>
+         <span class="space"></span>
+         <span>N</span>
+         <span>o</span>
+         <span>w </span>
+     </h1>
+
+     <div class="row">
+         <div class="img">
+             <img src="./hotels/pngegg.png" alt="">
+         </div>
+
+         <form action="">
+             <div class="inputbox">
+                 <h3>Where to</h3>
+                 <input type="text" placeholder="Place Name">
+             </div>
+             <div class="inputbox">
+                 <h3>how many</h3>
+                 <input type="number" placeholder="number of guest">
+             </div>
+             <div class="inputbox">
+                 <h3>Arrival</h3>
+                 <input type="date">
+             </div>
+             <div class="inputbox">
+                 <h3>Leaving</h3>
+                 <input type="date">
+             </div>
+             <input type="submit" class="btn" value="book now">
+         </form>
+     </div>
+ </section>
+<!-- Booking section end  -->
+
+
+<!-- packages section starts  -->
+
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+
+    </h1>
+
+
+    <div class="box-container">
+
+<!-- 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 -->
+<div class="box">
+    <img src="./hotels/lahore.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Lahore</h3>
+        <p>Offering the facilities and benefits of an outdoor swimming pool and spa and wellness center, Avari Lahore Hotel is located just 5 mi from the Allama Iqbal Airport. Free WiFi access is available.Each room here will provide you with a flat-screen cable TV, mini-bar and tea/coffee maker.At Avari Lahore Hotel you will find a fitness center. Other facilities offered at the property include grocery deliveries, meeting facilities and a ticket service. The property offers free parking.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</div>
+<!-- 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222 -->
+<div class="box">
+    <img src="./hotels/fasailabad.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Fasailabad</h3>
+        <p>Boasting a fitness centre, Avari Xpress Faisalabad is set in Faisalabad. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi throughout the property. Free private parking is available and the hotel also offers car hire for guests who want to explore the surrounding area.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</div>
+<!-- 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 -->
+<div class="box">
+    <img src="./hotels/islamabad.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Islamabad</h3>
+        <p>Book at Islamabad Serena Hotel, Islamabad. No Reservation Costs. Great Rates. Choose From a Wide Range of Properties Which Booking.com Offers. Search Now! Save money. Secret Deals. 24/7 Customer Service. Recent guest reviews.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</div>
+<!-- 444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 -->
+<div class="box">
+    <img src="./hotels/karachi.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> karachi</h3>
+        <p>Avari Tower features an outdoor pool, spa and fitness centre. Offering modern air conditioned rooms, the property provides free WiFi in all areas. It is 15 km from Jinnah Airport.Rooms come with a flat-screen cable/satellite TV, safety deposit box and minibar. Shower facilities are included in private bathrooms.staff at the 24-hour front desk can assist guests with currency exchange and laundry service. The hotel has a tennis court and business centre.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</div>
+<!-- 55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555 -->
+<div class="box">
+    <img src="./hotels/multan.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Multan</h3>
+        <p>Avari Xpress Multan offers accommodation in Multan. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi throughout the property. The hotel has family rooms.All guest rooms come with air conditioning, a flat-screen TV with cable channels, a fridge, a kettle, a shower, slippers and a wardrobe. At the hotel all rooms have bed linen and towels. Guests at Avari Xpress Multan can enjoy a buffet breakfast.The nearest airport is Multan International, 3 km from the accommodation, and the property offers a paid airport shuttle service.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</div>
+<!-- 66666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 -->
+<div class="box">
+    <img src="./hotels/pindi.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Pindi</h3>
+        <p>Avari Xpress, Pindi features a restaurant, fitness centre, a shared lounge and garden in Rawalpindi. Featuring family rooms, this property also provides guests with a sun terrace. The accommodation provides a 24-hour front desk, room service and currency exchange for guests.The hotel will provide guests with air-conditioned rooms offering a desk, a kettle, a minibar, a safety deposit box, a flat-screen TV and a private bathroom with a shower. At Avari Xpress, Islamabad every room is equipped with bed linen and towels.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</div>
+<!-- 0000000000000000000000000000000000000000000000000000000000000000000000000000000 -->
+
+    </div>
+</section>
+
+<!-- packages section ends  -->
+
+
+
+<!-- services section starts  -->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Hotel</h3>
+            <p>Lock in today’s lowest rates and pay nothing upfront, or cancel free for max flexibility! Find the perfect room with easy filters, read real reviews, and get live help any time.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food And Drink</h3>
+            <p>Lock in today’s lowest rates and pay nothing upfront, or cancel free for max flexibility! Find the perfect room with easy filters, read real reviews, and get live help any time.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Saftey Guide</h3>
+            <p>Lock in today’s lowest rates and pay nothing upfront, or cancel free for max flexibility! Find the perfect room with easy filters, read real reviews, and get live help any time.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around The World</h3>
+            <p>Lock in today’s lowest rates and pay nothing upfront, or cancel free for max flexibility! Find the perfect room with easy filters, read real reviews, and get live help any time.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest Travel</h3>
+            <p>Lock in today’s lowest rates and pay nothing upfront, or cancel free for max flexibility! Find the perfect room with easy filters, read real reviews, and get live help any time.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventure</h3>
+            <p>Lock in today’s lowest rates and pay nothing upfront, or cancel free for max flexibility! Find the perfect room with easy filters, read real reviews, and get live help any time.</p>
+        </div>
+    </div>
+</section>
+<!-- services section ends  -->
+
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img src="./photos/1.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/3.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/4.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/5.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/6.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/7.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/8.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/9.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+        <div class="box">
+        <img src="./photos/10.jpg" alt="">
+        <div class="content">
+         <h3>Amazing Places</h3>
+         <p>PHOTOS OF DUSHANBE MIRFA HOTEL</p>
+         <a href="#" class="btn">See More</a>
+         </div>
+        </div>
+</div>
+</section>
+<!-- gallery section ends  -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="wrapper swiper-wrapper">
+            <div class="slider swiper-slide">
+                <div class="box">
+                    <img src="./reviews/1st.jpg" alt="">
+                    <h3>muhammad adeel </h3>
+                    <p>The staff was very perfessional and courteous. They took good care of me and my team and were always there to help. I appreciate the behavior and would like to recommend them to any one for future travels..
+                        The one team member in particular bisharat was led his team well.. 🥰🥰🥰</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="slider swiper-slide">
+                <div class="box">
+                    <img src="./reviews/2nd.jpg" alt="">
+                    <h3>Asif Manzoor</h3>
+                    <p>The staff was very perfessional and courteous. They took good care of me and my team and were always there to help. I appreciate the behavior and would like to recommend them to any one for future travels..
+                        The one team member in particular bisharat was led his team well.. 🥰🥰🥰</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="slider swiper-slide">
+                <div class="box">
+                    <img src="./reviews/3rd.jpg" alt="">
+                    <h3>khurram Imtiaz Butt</h3>
+                    <p>The staff was very perfessional and courteous. They took good care of me and my team and were always there to help. I appreciate the behavior and would like to recommend them to any one for future travels..
+                        The one team member in particular bisharat was led his team well.. 🥰🥰🥰</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="slider swiper-slide">
+                <div class="box">
+                    <img src="./reviews/4th.jpg" alt="">
+                    <h3>Rameesha Zia</h3>
+                    <p>The staff was very perfessional and courteous. They took good care of me and my team and were always there to help. I appreciate the behavior and would like to recommend them to any one for future travels..
+                        The one team member in particular bisharat was led his team well.. 🥰🥰🥰</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- review section starts  -->
+
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+
+    </h1>
+
+    <div class="row">
+        <div class="img">
+            <img src="./photos/contact.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+    </div>
+</section>
+
+<!-- contact section ends  -->
+
+
+
+<!-- brand section starts  -->
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="wrapper swiper-wrapper">
+            <div class="swiper-slide"><img src="./imgbin_urban-outfitters-logo-santana-row-brand-clothing-png.png" alt=""></div>
+            <div class="swiper-slide"><img src="./kisspng-gul-ahmed-group-gulahmed-online-gul-ahmed-textile-textile-5ac1f164d613f6.5822195215226596848769.png" alt=""></div>
+            <div class="swiper-slide"><img src="./pngegg (1).png" alt=""></div>
+            <div class="swiper-slide"><img src="./pngegg (2).png" alt=""></div>
+            <div class="swiper-slide"><img src="./pngegg (3).png" alt=""></div>
+            <div class="swiper-slide"><img src="./pngegg (4).png" alt=""></div>
+        </div>
+    </div>
+</section>
+<!-- brand section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper javasc ript link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- javascript link  -->
+    <script src="./main.js"></script>
+
+</body>
+</html>
